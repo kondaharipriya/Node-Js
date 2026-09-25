@@ -47,6 +47,19 @@
     min-height: 500px;
 }
 
+.navbar .nav-link,
+.navbar .nav-link:hover,
+.navbar .nav-link:focus,
+.navbar .nav-link.active {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+}
+
 .search_container {
     display: flex;
     gap: 0px;

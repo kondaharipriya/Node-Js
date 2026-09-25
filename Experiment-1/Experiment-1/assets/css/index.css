@@ -40,11 +40,7 @@
 }
 
 .home_bg {
-    /* background-image: url('../images/home_background.jpg');
-    background-size: cover;
-    background-position: center; */
     background-color: #F49D36;
-    min-height: 500px;
 }
 
 .search_container {
@@ -55,8 +51,4 @@
 .home_img {
     width: 50%;
     height: 100%;
-}
-
-.home_img img {
-    max-width: none;
 }

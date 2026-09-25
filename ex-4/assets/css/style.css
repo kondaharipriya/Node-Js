@@ -95,15 +95,6 @@ img {
         line-height: normal;
     }
 
-    nav {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    nav a {
-        font-size: 16px;
-    }
-
     .navigation {
         align-items: start;
         flex-wrap: wrap;
@@ -111,3 +102,12 @@ img {
     }
 
 }
+.navbar {
+    padding: 10px 30px;
+    background: #0973AD;
+    box-shadow: 0 0 27px 0 rgba(0, 0, 0, 0.25);
+}
+li{
+    color: white;
+}
+.nav-item{color: white;}

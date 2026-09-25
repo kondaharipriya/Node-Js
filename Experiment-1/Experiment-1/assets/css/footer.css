@@ -10,7 +10,6 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 15px;
 }
 .social_media  {
     display: flex;
@@ -30,10 +29,4 @@ footer p {
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 0px;
-}
-
-@media (max-width: 480px) {
-    .footer {
-        flex-direction: column;
-    }
 }
