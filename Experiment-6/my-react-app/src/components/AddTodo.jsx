@@ -1,0 +1,24 @@
+import React, { useState } from 'react';
+const AddTodo = ({ onAdd }) => {
+    const [inputValue, setInputValue] = useState('');
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        if (inputValue.trim() === '') return;
+        onAdd(inputValue);
+        setInputValue('');
+    };
+    return (
+        <form onSubmit={handleSubmit}>
+            <div className="d-flex">
+                <input
+                    type="text"
+                    value={inputValue}
+                    onChange={(e) => setInputValue(e.target.value)}
+                    placeholder="Add a new todo" className='form-control'
+                />
+                <input type="submit" value="Add" className='btn btn-primary' />
+            </div>
+        </form>
+    );
+};
+export default AddTodo;
